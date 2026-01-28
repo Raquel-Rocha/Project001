@@ -1,34 +1,55 @@
-*{
-margin: 0px;
-padding: 10px;
+@font-face {
+  font-family: Google-sans;
+  src: url(/assets/Google_Sans/GoogleSans-VariableFont_GRAD\,opsz\,wght.ttf);
 }
 
 body {
   background-color: #fafafa;
+  height: 100%;
+  margin: 28px;
+  font-family: Google-sans;
 }
 
-h1{
-  font-family: Helvetica, sans-serif;
-  padding: 20px;
+h1 {
   text-align: center;
-
 }
 
-.conteiner{
-  background: linear-gradient(to right, #406a82,  #2f85b7 );
-  width: 500px;
-  padding: 20px;
-  height: 300px;
-  margin: 20px;
+h4 {
+  font-family: Google-sans;
+  text-align: center;
+  padding: 10px;
+}
+
+/* header */
+
+header {
+  margin-top: 8px;
+  padding: 8px;
+ 
+}
+section{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  margin-top: 8px;
   border-radius: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+article{
+  width: 360px;
+  background-color: #a0a0a0e8;
+  margin-top: 8px;
+  align-content: center;
+  text-align: center;
+  padding: 8px;
+  height: 120px;
+  border-radius: 8px;
+  color: white;
 }
 
-.box{
-  background: radial-gradient(circle, #8cacbf,  #0f5e8b );
-  width: 80%;
-  padding: 20px;
-  height: 50%;
-  margin: 20px;
-  border-radius: 10px;
-
+article:hover{
+  opacity: 0.8;
 }
+
+
